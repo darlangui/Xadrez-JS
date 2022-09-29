@@ -28,70 +28,66 @@
 
 -->
 
-<body onload="start()"> <!-- OnLoad - carrega uma função especifica quando o body for totalmente carregado -->
-    <section class="background"></section>
-
-    <section class="choose_start"> <!-- Painel de seleção pra ver quem começa (duas opções branco ou preto) -->
-        <div onclick="choose('white');">&#9812;</div>  
-        <div onclick="chosse('black');">&#9818;</div>
-    </section>
-
-    <section class="choose" id="white">
-        <div onclick="choose('queen','white');">&#9813;</div> <!-- Rainha Branca -->
-        <div onclick="choose('rook','white');">&#9814;</div>  <!-- Torre Branca -->
-        <div onclick="choose('knight','white');">&#9816;</div>  <!-- Cavalo Branco -->
-        <div onclick="choose('bishop','white');">&#9815;</div>  <!-- Bispo Branco -->
-    </section>
-    <section class="choose" id="black">
-        <div onclick="choose('queen','black');">&#9819;</div> <!-- Rainha Preta -->
-        <div onclick="choose('rook','black');">&#9820;</div>  <!-- Torre Preta -->
-        <div onclick="choose('knight','black');">&#9822;</div> <!-- Cavalo Preto -->
-        <div onclick="choose('bishop','black');">&#9821;</div> <!-- Bispo Preto --> 
-    </section>
-
-    <!-- Tabuleiro -->
-    <section class="board">
-            <div id="block_11" onclick="pick(1,1);"></div>	<div id="block_12" onclick="pick(1,2);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_13" onclick="pick(1,3);"></div>	<div id="block_14" onclick="pick(1,4);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_15" onclick="pick(1,5);"></div>	<div id="block_16" onclick="pick(1,6);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_17" onclick="pick(1,7);"></div>	<div id="block_18" onclick="pick(1,8);"></div> <!-- Crie e define o evento de mover o objeto -->
-            
-            <div id="block_21" onclick="pick(2,1);"></div>	<div id="block_22" onclick="pick(2,2);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_23" onclick="pick(2,3);"></div>	<div id="block_24" onclick="pick(2,4);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_25" onclick="pick(2,5);"></div>	<div id="block_26" onclick="pick(2,6);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_27" onclick="pick(2,7);"></div>	<div id="block_28" onclick="pick(2,8);"></div> <!-- Crie e define o evento de mover o objeto -->
-            
-            <div id="block_31" onclick="pick(3,1);"></div>	<div id="block_32" onclick="pick(3,2);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_33" onclick="pick(3,3);"></div>	<div id="block_34" onclick="pick(3,4);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_35" onclick="pick(3,5);"></div>	<div id="block_36" onclick="pick(3,6);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_37" onclick="pick(3,7);"></div>	<div id="block_38" onclick="pick(3,8);"></div> <!-- Crie e define o evento de mover o objeto -->
-            
-            <div id="block_41" onclick="pick(4,1);"></div>	<div id="block_42" onclick="pick(4,2);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_43" onclick="pick(4,3);"></div>	<div id="block_44" onclick="pick(4,4);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_45" onclick="pick(4,5);"></div>	<div id="block_46" onclick="pick(4,6);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_47" onclick="pick(4,7);"></div>	<div id="block_48" onclick="pick(4,8);"></div> <!-- Crie e define o evento de mover o objeto -->
-            
-            <div id="block_51" onclick="pick(5,1);"></div>	<div id="block_52" onclick="pick(5,2);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_53" onclick="pick(5,3);"></div>	<div id="block_54" onclick="pick(5,4);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_55" onclick="pick(5,5);"></div>	<div id="block_56" onclick="pick(5,6);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_57" onclick="pick(5,7);"></div>	<div id="block_58" onclick="pick(5,8);"></div> <!-- Crie e define o evento de mover o objeto -->
-            
-            <div id="block_61" onclick="pick(6,1);"></div>	<div id="block_62" onclick="pick(6,2);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_63" onclick="pick(6,3);"></div>	<div id="block_64" onclick="pick(6,4);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_65" onclick="pick(6,5);"></div>	<div id="block_66" onclick="pick(6,6);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_67" onclick="pick(6,7);"></div>	<div id="block_68" onclick="pick(6,8);"></div> <!-- Crie e define o evento de mover o objeto -->
-            
-            <div id="block_71" onclick="pick(7,1);"></div>	<div id="block_72" onclick="pick(7,2);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_73" onclick="pick(7,3);"></div>	<div id="block_74" onclick="pick(7,4);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_75" onclick="pick(7,5);"></div>	<div id="block_76" onclick="pick(7,6);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_77" onclick="pick(7,7);"></div>	<div id="block_78" onclick="pick(7,8);"></div> <!-- Crie e define o evento de mover o objeto -->
-            
-            <div id="block_81" onclick="pick(8,1);"></div>	<div id="block_82" onclick="pick(8,2);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_83" onclick="pick(8,3);"></div>	<div id="block_84" onclick="pick(8,4);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_85" onclick="pick(8,5);"></div>	<div id="block_86" onclick="pick(8,6);"></div> <!-- Crie e define o evento de mover o objeto -->
-            <div id="block_87" onclick="pick(8,7);"></div>	<div id="block_88" onclick="pick(8,8);"></div> <!-- Crie e define o evento de mover o objeto -->
-    </section>
-
+<body onload="start();"> <!-- puxa  a função de start que carrega as funções e distribuições de peças com o JS. -->
+    <div id="background"></div> <!-- define o fundo -->
+    <div id="choose_start" class="choose" > <!-- pergunta quem começa pro jogador (preto, branco) -->
+        <div onclick="start_choose('white');">&#9812;</div>
+           <div onclick="start_choose('black');">&#9818;</div>
+    </div>
+    <div id="choose_white" class="choose"> <!-- é chamado quando o peão adversario chega no fim (trocar de classe de peça) -->
+        <div onclick="choose('queen','white');">&#9813;</div>
+        <div onclick="choose('rook','white');">&#9814;</div>
+        <div onclick="choose('knight','white');">&#9816;</div>
+        <div onclick="choose('bishop','white');">&#9815;</div>
+    </div>
+    <div id="choose_black" class="choose"> <!-- é chamado quando o peão adversario chega no fim (trocar de classe de peça)  -->
+        <div onclick="choose('queen','black');">&#9819;</div>
+        <div onclick="choose('rook','black');">&#9820;</div>
+        <div onclick="choose('knight','black');">&#9822;</div>
+        <div onclick="choose('bishop','black');">&#9821;</div>
+    </div>
+    
+    <div id="board"> <!--  -->
+        <div id="t11" onclick="select(1,1);"></div>	<div id="t12" onclick="select(1,2);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t13" onclick="select(1,3);"></div>	<div id="t14" onclick="select(1,4);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t15" onclick="select(1,5);"></div>	<div id="t16" onclick="select(1,6);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t17" onclick="select(1,7);"></div>	<div id="t18" onclick="select(1,8);"></div> <!-- define o bloco da peça especifica -->
+        
+        <div id="t21" onclick="select(2,1);"></div>	<div id="t22" onclick="select(2,2);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t23" onclick="select(2,3);"></div>	<div id="t24" onclick="select(2,4);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t25" onclick="select(2,5);"></div>	<div id="t26" onclick="select(2,6);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t27" onclick="select(2,7);"></div>	<div id="t28" onclick="select(2,8);"></div> <!-- define o bloco da peça especifica -->
+        
+        <div id="t31" onclick="select(3,1);"></div>	<div id="t32" onclick="select(3,2);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t33" onclick="select(3,3);"></div>	<div id="t34" onclick="select(3,4);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t35" onclick="select(3,5);"></div>	<div id="t36" onclick="select(3,6);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t37" onclick="select(3,7);"></div>	<div id="t38" onclick="select(3,8);"></div> <!-- define o bloco da peça especifica -->
+        
+        <div id="t41" onclick="select(4,1);"></div>	<div id="t42" onclick="select(4,2);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t43" onclick="select(4,3);"></div>	<div id="t44" onclick="select(4,4);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t45" onclick="select(4,5);"></div>	<div id="t46" onclick="select(4,6);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t47" onclick="select(4,7);"></div>	<div id="t48" onclick="select(4,8);"></div> <!-- define o bloco da peça especifica -->
+        
+        <div id="t51" onclick="select(5,1);"></div>	<div id="t52" onclick="select(5,2);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t53" onclick="select(5,3);"></div>	<div id="t54" onclick="select(5,4);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t55" onclick="select(5,5);"></div>	<div id="t56" onclick="select(5,6);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t57" onclick="select(5,7);"></div>	<div id="t58" onclick="select(5,8);"></div> <!-- define o bloco da peça especifica -->
+        
+        <div id="t61" onclick="select(6,1);"></div>	<div id="t62" onclick="select(6,2);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t63" onclick="select(6,3);"></div>	<div id="t64" onclick="select(6,4);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t65" onclick="select(6,5);"></div>	<div id="t66" onclick="select(6,6);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t67" onclick="select(6,7);"></div>	<div id="t68" onclick="select(6,8);"></div> <!-- define o bloco da peça especifica -->
+        
+        <div id="t71" onclick="select(7,1);"></div>	<div id="t72" onclick="select(7,2);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t73" onclick="select(7,3);"></div>	<div id="t74" onclick="select(7,4);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t75" onclick="select(7,5);"></div>	<div id="t76" onclick="select(7,6);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t77" onclick="select(7,7);"></div>	<div id="t78" onclick="select(7,8);"></div> <!-- define o bloco da peça especifica -->
+        
+        <div id="t81" onclick="select(8,1);"></div>	<div id="t82" onclick="select(8,2);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t83" onclick="select(8,3);"></div>	<div id="t84" onclick="select(8,4);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t85" onclick="select(8,5);"></div>	<div id="t86" onclick="select(8,6);"></div> <!-- define o bloco da peça especifica -->
+        <div id="t87" onclick="select(8,7);"></div>	<div id="t88" onclick="select(8,8);"></div> <!-- define o bloco da peça especifica -->
+    </div>
     <script src="engine.js"></script> <!-- Carrega o script do JS -->
 </body>
 </html>
