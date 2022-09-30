@@ -22,8 +22,8 @@
 
   Dentre as técnologias utilizadas estão : <br>
     
-    - CSS3 <br>
-    - HTML5 <br>
+    - CSS3 
+    - HTML5 
     - JavaScript (ES13)
     
 ### ✒️ Autores
