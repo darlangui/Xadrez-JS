@@ -11,10 +11,12 @@
 ### 🔧 Instalação e Execução
 
   Primeiro passo seria clonar este repositório em sua maquina, após isso iniciazar o __Visual Code__ e abrir a pasta do projeto no mesmo e iniciar o mesmo no __Go Live__ na parte direita inferior do programa. Isso iniciara em sua maquina local : 
-  
- <html> <img align="center" src="https://user-images.githubusercontent.com/71740181/193279992-b6e61f71-e6c3-44c2-ac93-179b488a1459.svg" widht="250px" height="250px"> </html>
  
-<b align-text="center"> Agora só jogar e se divertir! <b> 
+ <p align="center">
+  <img width="300" height="300" src="[http://www.fillmurray.com/460/300](https://user-images.githubusercontent.com/71740181/193279992-b6e61f71-e6c3-44c2-ac93-179b488a1459.svg)">
+  <b> Agora só jogar e se divertir! <b> 
+</p>
+
   
 ### 🛠️ Construído com
 
