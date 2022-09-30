@@ -1,4 +1,5 @@
-# <html>&#9813;</html> __Xadrez Básico__
+# <html>&#9813;</html> __Xadrez básico com JS__
 
+## 🚀 Introdução
 
-Projeto com HTML | CSS | JS | JAVA para criação de uma aplicação web de xadrez.
+  Aplicação de um jogo de xadrez simples com o intuito aprofundar o conhecimento na linguagem JavaScript.
