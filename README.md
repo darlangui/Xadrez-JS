@@ -12,16 +12,16 @@
 
   Primeiro passo seria clonar este repositório em sua maquina, após isso iniciazar o __Visual Code__ e abrir a pasta do projeto no mesmo e iniciar o mesmo no __Go Live__ na parte direita inferior do programa. Isso iniciara em sua maquina local : 
   
-    ![image 1](https://user-images.githubusercontent.com/71740181/193278770-224c37f1-f002-498c-af29-d60180c672ea.svg)
-  
+  -![image 1](https://user-images.githubusercontent.com/71740181/193279992-b6e61f71-e6c3-44c2-ac93-179b488a1459.svg)
+
   __Agora só jogar e se divertir!__
   
 ### 🛠️ Construído com
 
   Dentre as técnologias utilizadas estão :
-    - `Java Script (ES13)`
-    - `HTML5`
     - `CSS3`
+    - `HTML5`
+    - `JavaScript (ES13)`
     
 ### ✒️ Autores
 
