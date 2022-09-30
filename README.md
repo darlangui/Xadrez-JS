@@ -35,3 +35,13 @@
 Este projeto está sob a licença __The MIT License (MIT)__ - veja o arquivo LICENSE.md para detalhes.
 
 Copyright ©️ 2022 - Darlan Guimarães
+
+### 🎁 Inspirações
+
+Filipe de Schamps - https://github.com/filipedeschamps/meu-primeiro-jogo-multiplayer
+
+Omarja Dalla - https://codepen.io/omarjadalla/pen/nPWPaw
+
+
+
+
