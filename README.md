@@ -1,8 +1,8 @@
-# <html>&#9813;</html> __Xadrez básico com JS__
+# <html>&#9813;</html> __Xadrez básico com JS - Multiplayer__
 
 ### 🚀 Introdução
 
-  Aplicação de um jogo de xadrez simples com o intuito aprofundar o conhecimento na linguagem JavaScript.
+  Aplicação de um jogo de xadrez simples multiplayer com o intuito aprofundar o conhecimento na linguagem JavaScript.
 
 ### 📋 Pré-requisitos
   
@@ -12,8 +12,7 @@
 
   Primeiro passo seria clonar este repositório em sua maquina, após isso iniciazar o __Visual Code__ e abrir a pasta do projeto no mesmo e iniciar o mesmo no __Go Live__ na parte direita inferior do programa. Isso iniciara em sua maquina local : 
   
-  -![image 1](https://user-images.githubusercontent.com/71740181/193279992-b6e61f71-e6c3-44c2-ac93-179b488a1459.svg)
-
+  <img src="https://user-images.githubusercontent.com/71740181/193279992-b6e61f71-e6c3-44c2-ac93-179b488a1459.svg" widht="200px" height="200px">
   __Agora só jogar e se divertir!__
   
 ### 🛠️ Construído com
