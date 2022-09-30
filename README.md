@@ -18,13 +18,13 @@
   <b> Agora só jogar e se divertir! <b> 
 </p>
 
-  
 ### 🛠️ Construído com
 
-  Dentre as técnologias utilizadas estão :
-    - `CSS3`
-    - `HTML5`
-    - `JavaScript (ES13)`
+  Dentre as técnologias utilizadas estão : <br>
+    
+    - `CSS3` <br>
+    - `HTML5` <br>
+    - `JavaScript (ES13)` 
     
 ### ✒️ Autores
 
