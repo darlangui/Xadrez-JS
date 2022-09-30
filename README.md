@@ -13,7 +13,7 @@
   Primeiro passo seria clonar este repositório em sua maquina, após isso iniciazar o __Visual Code__ e abrir a pasta do projeto no mesmo e iniciar o mesmo no __Go Live__ na parte direita inferior do programa. Isso iniciara em sua maquina local : 
  
  <p align="center">
-  <img width="300" height="300" src="https://user-images.githubusercontent.com/71740181/193279992-b6e61f71-e6c3-44c2-ac93-179b488a1459.svg">
+  <img width="200" height="200" src="https://user-images.githubusercontent.com/71740181/193279992-b6e61f71-e6c3-44c2-ac93-179b488a1459.svg">
   <br>
   <b> Agora só jogar e se divertir! <b> 
 </p>
